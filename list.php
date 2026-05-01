@@ -18,6 +18,8 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 <body>
 
+<img src="logo.png" alt="Logo" width="200"><br><br>
+
 <h1>Current Inventory</h1>
 
 <table border="1" cellpadding="5">
@@ -54,4 +56,4 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 </body>
 
-</html>
+
